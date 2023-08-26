@@ -27,19 +27,19 @@
 // Якщо значення не парне, вирішуй проміс та повертай "odd" через 2 секунди.
 
 
-const answer = Number(prompt("Enter something"))
+// const answer = Number(prompt("Enter something"))
 
-function answerFunc(answer) {
-   return new Promise((resolve, reject) => {
-        if (Number.isNaN(answer)) reject("Error")
+// function answerFunc(answer) {
+//    return new Promise((resolve, reject) => {
+//         if (Number.isNaN(answer)) reject("Error")
         
-        if (answer % 2 === 0) setTimeout(() => resolve("even"), 1000) 
-        if(answer % 2 !== 0) setTimeout(() => resolve("odd"), 2000) 
+//         if (answer % 2 === 0) setTimeout(() => resolve("even"), 1000) 
+//         if(answer % 2 !== 0) setTimeout(() => resolve("odd"), 2000) 
     
-    })
+//     })
     
-}
+// }
 
-answerFunc(answer)
-    .then((response) => console.log(response))
-    .catch((error) => console.log(error))
+// answerFunc(answer)
+//     .then((response) => console.log(response))
+//     .catch((error) => console.log(error))
