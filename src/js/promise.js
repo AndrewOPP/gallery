@@ -28,6 +28,8 @@
 
 // const answer = Number(prompt("Enter something"))
 
+// const answer = Number(prompt("Enter something"))
+
 // function answerFunc(answer) {
 //    return new Promise((resolve, reject) => {
 //         if (Number.isNaN(answer)) reject("Error")
